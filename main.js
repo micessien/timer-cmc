@@ -6,8 +6,8 @@ var h = document.getElementById('hour');
 var m = document.getElementById('minute');
 var s = document.getElementById('sec');
 // Audios document
-var click = new Audio("click.mp3");
-var bell = new Audio("bell.mp3");
+var click = new Audio("audios/click.mp3");
+var bell = new Audio("audios/bell.mp3");
 
 // Store a reference to the variable
 var startTimer = null;
@@ -17,7 +17,6 @@ function timer(){
         h.value = 0;
         m.value = 0;
         s.value = 0;
-        bell.play();
     } else if (s.value != 0) {
         s.value--;
     } else if(m.value != 0 && s.value == 0){
