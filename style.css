@@ -1,6 +1,17 @@
+@font-face {
+    font-family: RobotoFont;
+    src: url(fonts/Roboto/Roboto-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: PoppinsFont;
+    src: url(fonts/Poppins/Poppins-Regular.ttf);
+  }
+
 html {
     background-color: #272343;
     height: 100%;
+    font-family: PoppinsFont;
 }
 
 h1 {
